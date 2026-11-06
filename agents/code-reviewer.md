@@ -6,9 +6,9 @@ tools:
   - Grep
   - Glob
   - Bash
-model: inherit
+model: opus
 maxTurns: 20
-effort: high
+effort: xhigh
 permissionMode: default
 ---
 
