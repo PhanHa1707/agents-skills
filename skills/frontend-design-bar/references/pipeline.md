@@ -67,6 +67,9 @@ medium-free for greybox, port-back-and-re-review for spikes.
 
 ## Phase 0 — Direction (USER)
 
+A surface that shows data (overview, dashboard, status card): run skill `form-follows-question` first, so each
+element's form comes from its question and data kind before any direction or mock brief.
+
 Curate **3-5 concrete references** + art-direction brief + **restraint map** (loud vs
 quiet) + **compositional thesis** (one line: the signature layout move — where the focal
 sits, grid-break / asymmetry / overlap; a SEPARATE artifact from restraint) +
