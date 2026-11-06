@@ -1,11 +1,11 @@
 ---
-name: form-follows-question
+name: metric-display-plan
 description: Before any UI mock, mock brief or design-direction round for a surface that shows several pieces of data (overview, dashboard, status page, summary card, settings with readings), work out per element what question the user brings to it and what kind of data it is, choose a form for each element from that, and only then generate ideas and layouts. Use it whenever you are about to mock, sketch, brief subagents for, or propose directions for a data-bearing screen — "làm mock", "dựng mock Overview", "đề xuất cách hiển thị", "thiết kế lại dashboard", "mock nhanh cho tôi", "redesign the overview" — and whenever every element on a screen is drifting into the same tile, the same number-plus-chart, or the owner says the ideas feel limited or samey. Not for judging a finished UI (frontend-design-bar) or building it (impeccable).
 metadata:
   origin: user
 ---
 
-# Form follows question
+# Metric display plan
 
 A screen with five readings is five questions, not one template applied five times. This skill makes the
 question and the data's nature decide each element's form *before* anyone mocks, briefs or picks a layout.

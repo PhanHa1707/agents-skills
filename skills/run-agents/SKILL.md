@@ -34,7 +34,7 @@ Record `git rev-parse HEAD` as the baseline before the first wave; section 5 nee
 - **Later wave:** a task that needs another's result or edits the same file. No worktree unless the
   owner asks or a PR needs one (`CLAUDE.md` `<branching>`).
 - **Brief:** goal, files it owns, files it must not touch, the check to run. A mock of a data-bearing
-  screen also carries the element sheet from skill `form-follows-question`, one form per element. A subagent knows nothing
+  screen also carries the element sheet from skill `metric-display-plan`, one form per element. A subagent knows nothing
   else. It does not commit: parallel commits collide on the shared git index.
 
 ## 4. Build through
