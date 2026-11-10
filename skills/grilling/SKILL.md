@@ -5,6 +5,13 @@ description: Grill the user relentlessly about a plan, decision, or idea. Use wh
 
 Interview the user relentlessly until you reach a shared understanding. Map this as a **design tree**: every decision branches into the decisions that hang off it.
 
+The **root** of the tree is the intent: the outcome, how you will know it worked (a real-world check, not a proxy such as a test count), and what is out of scope. Settle it inside round one, never as a separate interview:
+
+- **You can write every line without guessing**: ask it as the first question of round one, beside the frontier. This is the one exception to the ordering rule below. State the three lines in the question, with "Yes, that is it" as the recommended option. A correction voids the answers that depended on it: recompute the frontier and re-ask only those.
+- **A line is a guess** (also who it is for, why now, or the binding constraint, when the tree depends on them): ask the guessed lines alone first, one question each, your guess as the recommended option. A single yes over a guessed root is hollow.
+- **The user says it is off**: dig only the line that is off, one question at a time with your guess attached. Do not start the tree on an unconfirmed root.
+- **Skip the root** when a confirmed intent, a spec or a written plan is already in the conversation: read the root from it.
+
 Work the tree in **rounds**. The **frontier** is every decision whose prerequisites are already settled: the questions you can ask _now_ without guessing at answers you haven't heard yet. Ask the whole frontier in one round, each question with your recommended answer. Then wait for the user's answers before the next round.
 
 A round must be cheap to answer: accepting a recommendation takes no typing, and a question reads in a few seconds. Write each question in one or two sentences and put the trade-off in the options, not in the body.
@@ -42,4 +49,4 @@ Finding _facts_ is your job, never the user's. When a frontier question needs a 
 
 The session is done when the frontier is empty: every branch of the design tree visited, nothing left silently assumed. Do not act on it until the user confirms you have reached a shared understanding.
 
-When it is done, write the settled decisions to a decision ledger, one numbered line per decision, quoting what the user chose. Save it where the downstream spec will link to it. Every later artifact cites ledger IDs: the spec's requirements, the plan's tasks, any build prompt or subagent brief. Before the spec is committed, check that every ledger line maps to a requirement and an acceptance check (W20).
+When it is done, write the settled decisions to a decision ledger, one numbered line per decision, quoting what the user chose. The confirmed root is the first entry. Save it where the downstream spec will link to it. Every later artifact cites ledger IDs: the spec's requirements, the plan's tasks, any build prompt or subagent brief. Before the spec is committed, check that every ledger line maps to a requirement and an acceptance check (W20).
