@@ -232,6 +232,7 @@ Under the [documentation rules](rules/core/docs.md), the conversation supplies g
 | [`codebase-onboarding`](skills/codebase-onboarding/SKILL.md)                        | Fast architecture map for unfamiliar repos                   |
 | [`interview-me`](skills/interview-me/SKILL.md)                                      | One-question-at-a-time interview to extract real intent      |
 | [`kyant-intent`](skills/kyant-intent/SKILL.md)                                      | `interview-me` in its own frame: Read→Ask→Dig→Stop→Lock      |
+| [`kyant-grill`](skills/kyant-grill/SKILL.md)                                        | `grilling` made quick: intent first, answers via a dialog    |
 | [`find-skills`](skills/find-skills/SKILL.md)                                        | Discover / install agent skills                              |
 | [`explain`](skills/explain/SKILL.md)                                                | Teach a concept, bug, or design decision in a chosen style   |
 

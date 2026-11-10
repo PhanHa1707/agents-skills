@@ -232,6 +232,7 @@ Theo [quy tắc tài liệu](rules/core/docs.md), bạn giao việc và chốt q
 | [`codebase-onboarding`](skills/codebase-onboarding/SKILL.md)                     | Bản đồ kiến trúc nhanh cho repo lạ                             |
 | [`interview-me`](skills/interview-me/SKILL.md)                                   | Phỏng vấn từng câu để moi ý định thật                          |
 | [`kyant-intent`](skills/kyant-intent/SKILL.md)                                   | Khung riêng của `interview-me`: Read → Ask → Dig → Stop → Lock |
+| [`kyant-grill`](skills/kyant-grill/SKILL.md)                                     | `grilling` trả lời nhanh: chốt ý định trước, hỏi bằng hộp chọn |
 | [`find-skills`](skills/find-skills/SKILL.md)                                     | Tìm / cài agent skills                                         |
 | [`explain`](skills/explain/SKILL.md)                                             | Giảng khái niệm, bug, hoặc quyết định thiết kế theo style chọn |
 

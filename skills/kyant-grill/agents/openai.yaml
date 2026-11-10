@@ -1,0 +1,5 @@
+interface:
+  display_name: "Kyant Grill"
+  short_description: "Grill in fast rounds: intent first, one Enter per answer"
+policy:
+  allow_implicit_invocation: false
