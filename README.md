@@ -212,11 +212,17 @@ Claude Code nhận các agent này qua `Agent` tool (frontmatter `description`).
 | [`database-reviewer`](agents/database-reviewer.md)         | PostgreSQL: tối ưu query, schema, thực hành Supabase                      |
 | [`security-reviewer`](agents/security-reviewer.md)         | OWASP Top 10, secrets, injection, SSRF                                    |
 | [`silent-failure-hunter`](agents/silent-failure-hunter.md) | Lỗi bị nuốt, fallback kém, thiếu lan truyền lỗi                           |
+| [`swift-reviewer`](agents/swift-reviewer.md)               | Swift sâu: concurrency, ARC, value semantics, protocol |
+| [`go-reviewer`](agents/go-reviewer.md)                     | Go sâu: xử lý lỗi, goroutine, idiom |
+| [`rust-reviewer`](agents/rust-reviewer.md)                 | Rust sâu: ownership, lifetime, `unsafe`, xử lý lỗi |
+| [`pr-test-analyzer`](agents/pr-test-analyzer.md)           | Chấm test của một thay đổi: có phủ hành vi và bắt được bug thật không |
 
 ### Hiệu năng & bảo trì
 
 | Agent                                                      | Mô tả                                                |
 | ---------------------------------------------------------- | ---------------------------------------------------- |
+| [`performance-optimizer`](agents/performance-optimizer.md) | Tìm nghẽn hiệu năng: bundle, render, memory leak, thuật toán |
+| [`refactor-cleaner`](agents/refactor-cleaner.md)           | Gỡ code chết và trùng lặp bằng `knip` / `depcheck` / `ts-prune`, test sau mỗi đợt |
 | [`doc-updater`](agents/doc-updater.md)                     | Đồng bộ docs sống (`README`, `CHANGELOG`, `docs/`) với code |
 
 ## Skills

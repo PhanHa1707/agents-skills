@@ -212,11 +212,17 @@ Claude Code discovers these via the `Agent` tool (frontmatter `description`). Co
 | [`database-reviewer`](agents/database-reviewer.md)         | PostgreSQL: query optimization, schema, Supabase practices                |
 | [`security-reviewer`](agents/security-reviewer.md)         | OWASP Top 10, secrets, injection, SSRF                                    |
 | [`silent-failure-hunter`](agents/silent-failure-hunter.md) | Swallowed errors, bad fallbacks, missing error propagation                |
+| [`swift-reviewer`](agents/swift-reviewer.md)               | Deep Swift: concurrency, ARC, value semantics, protocols |
+| [`go-reviewer`](agents/go-reviewer.md)                     | Deep Go: error handling, goroutines, idioms |
+| [`rust-reviewer`](agents/rust-reviewer.md)                 | Deep Rust: ownership, lifetimes, `unsafe`, error handling |
+| [`pr-test-analyzer`](agents/pr-test-analyzer.md)           | Grades the tests of a change: behaviour covered, real bugs caught |
 
 ### Performance & maintenance
 
 | Agent                                                      | Description                                                |
 | ---------------------------------------------------------- | ---------------------------------------------------------- |
+| [`performance-optimizer`](agents/performance-optimizer.md) | Finds bottlenecks: bundle, render, memory leaks, algorithms |
+| [`refactor-cleaner`](agents/refactor-cleaner.md)           | Removes dead and duplicate code with `knip` / `depcheck` / `ts-prune`, tests after each batch |
 | [`doc-updater`](agents/doc-updater.md)                     | Keeps living docs (`README`, `CHANGELOG`, `docs/`) in line with code |
 
 ## Skills
