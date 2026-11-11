@@ -199,7 +199,7 @@ Claude Code discovers these via the `Agent` tool (frontmatter `description`). Co
 | Agent                                      | Description                                                                              |
 | ------------------------------------------ | ---------------------------------------------------------------------------------------- |
 | [`analyst`](agents/analyst.md)             | Research, market/competitive analysis, brainstorming facilitation; returns drafts as text for review |
-| [`Explore`](agents/explore.md)             | Overrides built-in Explore: read-only codebase search on Haiku (`effort: medium`) to cut cost |
+| [`Explore`](agents/explore.md)             | Overrides built-in Explore: read-only codebase search on Haiku (`effort: high`) to cut cost |
 | [`architect`](agents/architect.md)         | System architecture and technical decisions for large features/refactors                 |
 | [`planner`](agents/planner.md)             | Detailed planning for complex features and refactors                                     |
 

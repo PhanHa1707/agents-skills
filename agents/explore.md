@@ -3,7 +3,7 @@ name: Explore
 description: Fast read-only agent for searching and analyzing codebases. Use to find files by pattern, search code for keywords or symbols, or answer questions about how the codebase works. When calling it, specify thoroughness — "quick" for a targeted lookup, "medium" for moderate exploration, "very thorough" for a sweep across multiple locations and naming conventions.
 tools: Read, Grep, Glob, Bash
 model: haiku
-effort: medium
+effort: high
 omitClaudeMd: true
 color: cyan
 ---

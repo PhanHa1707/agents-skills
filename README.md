@@ -199,7 +199,7 @@ Claude Code nhận các agent này qua `Agent` tool (frontmatter `description`).
 | Agent                                      | Mô tả                                                                                  |
 | ------------------------------------------ | -------------------------------------------------------------------------------------- |
 | [`analyst`](agents/analyst.md)             | Nghiên cứu, phân tích thị trường/đối thủ, hỗ trợ brainstorm; trả draft dạng text để người duyệt |
-| [`Explore`](agents/explore.md)             | Ghi đè Explore built-in: tìm kiếm codebase chỉ-đọc, chạy Haiku (`effort: medium`) cho rẻ |
+| [`Explore`](agents/explore.md)             | Ghi đè Explore built-in: tìm kiếm codebase chỉ-đọc, chạy Haiku (`effort: high`) cho rẻ |
 | [`architect`](agents/architect.md)         | Kiến trúc hệ thống và quyết định kỹ thuật cho feature/refactor lớn                     |
 | [`planner`](agents/planner.md)             | Lập plan chi tiết cho feature và refactor phức tạp                                     |
 
